@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'microsoft yahei', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-width: 1000px;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .no-select{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  #root{
+    width: 100%;
+    height: 100%;
+  }
+  
+  ul,li{
+    list-style: none;
+    margin-bottom: 0;
+  }
+  
+  .mapboxgl-popup-content{
+    padding-bottom: 10px;
+  }
+  
+  .mapboxgl-popup-tip{
+    border-width: 6px;
+  }
+  
+  .mapboxgl-ctrl-group button.mapboxgl-ctrl-zoom{
+    cursor: default;
+  }
+  
+  .mapboxgl-ctrl-group button.mapboxgl-ctrl-zoom:hover{
+    background-color: #fff;
+  }
+  
+  .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl.mapboxgl-ctrl-scale{
+    position: absolute;
+    right: 50px;
+    bottom: 15px;
+  }
+  
+  .mapboxgl-ctrl-group:not(:empty){
+    box-shadow: 0 0 3px rgba(0, 0, 0, .6);
+  }
+  
+  .mapboxgl-ctrl-scale{
+    line-height: 10px;
+  }
+  
+  .ant-btn-text, .ant-btn-text:hover{
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  .ant-dropdown-menu-item > span.anticon.anticon-download, 
+  .ant-dropdown-menu-item > span.anticon.anticon-delete, 
+  .ant-dropdown-menu-item > span.anticon.anticon-edit {
+    font-size: 16px;
+  }
